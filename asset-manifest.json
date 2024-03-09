@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/routeTracker/static/css/main.3ec279ba.css",
+    "main.js": "/routeTracker/static/js/main.f2fd73c6.js",
+    "static/js/453.8d736aa2.chunk.js": "/routeTracker/static/js/453.8d736aa2.chunk.js",
+    "static/media/bmw.png": "/routeTracker/static/media/bmw.ba2cf10bcf4cc4d326ca.png",
+    "static/media/toyota.png": "/routeTracker/static/media/toyota.d7427c6ba8ae14381a3b.png",
+    "static/media/a3.png": "/routeTracker/static/media/a3.07a0c3430627d6bc283b.png",
+    "static/media/volvo.png": "/routeTracker/static/media/volvo.0310c262596d45849515.png",
+    "static/media/bg.png": "/routeTracker/static/media/bg.5b62ef47ba87ba9adaf1.png",
+    "index.html": "/routeTracker/index.html",
+    "main.3ec279ba.css.map": "/routeTracker/static/css/main.3ec279ba.css.map",
+    "main.f2fd73c6.js.map": "/routeTracker/static/js/main.f2fd73c6.js.map",
+    "453.8d736aa2.chunk.js.map": "/routeTracker/static/js/453.8d736aa2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ec279ba.css",
+    "static/js/main.f2fd73c6.js"
+  ]
+}
