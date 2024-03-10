@@ -30,7 +30,7 @@ function App() {
 
     await Promise.all(promises);
 
-    console.log(tempArray);
+   
     setCars(tempArray);
   }
 
@@ -54,7 +54,7 @@ function App() {
 
     tempArray.forEach((item) => {
       item.forEach((route) => {
-        if (route.route_length != undefined)
+        if (route.route_length !== undefined)
           tempSummaryRouteLength.push(Number(route.route_length));
 
       });
@@ -89,9 +89,7 @@ function App() {
 
   }
 
-  useEffect(function () {
-    console.log(chosedCarDetails)
-  }, [chosedCarDetails])
+
 
 
 
@@ -151,7 +149,7 @@ function App() {
 
             </div>}
         </div>
-        <div className='flex  bg-red-900  flex-col  h-fit w-screen justify-evenly'>
+        <div className='flex   flex-col  h-fit w-screen justify-evenly'>
           {cars && allDataisShown ?
             cars.map((item, index) =>
               <CarPage type={item.type} consumption={item.consumption} plate_number={item.plate_number} ></CarPage>

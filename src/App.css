@@ -2,12 +2,23 @@
     background-image: url("./imgs/bg.png");
 }
 
-* {
-font-family: "Poppins", sans-serif;;
+*,body {
+font-family: "Poppins", sans-serif;
 }
 .header{
     background-color: #BABAB8;
 }
 .defbg{
     background-color: #FFFEFA;
+}
+
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+* {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
